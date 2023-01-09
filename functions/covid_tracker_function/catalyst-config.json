@@ -1,6 +1,6 @@
 {
 	"deployment": {
-		"name": "alien_city_function",
+		"name": "covid_tracker_function",
 		"stack": "node16",
 		"type": "advancedio"
 	},

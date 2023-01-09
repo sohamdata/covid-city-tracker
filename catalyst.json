@@ -1,7 +1,7 @@
 {
   "functions": {
     "targets": [
-      "alien_city_function"
+      "covid_tracker_function"
     ],
     "ignore": [],
     "source": "functions"

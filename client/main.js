@@ -6,7 +6,7 @@ function postLockdown() {
     // Fires an Ajax call to the URL defined in the index.js function file
     // All URLs to the Advanced I/O function will be of the pattern: /server/{function_name}/{url_path}
     $.ajax({
-        url: "/server/alien_city_function/alien",
+        url: "/server/covid_tracker_function/city",
         type: "post",
         contentType: "application/json",
         data: JSON.stringify({
@@ -33,7 +33,7 @@ function getLockdown() {
     // Fires an Ajax call to the URL defined in the index.js function file
     // All URLs to the function will be of the pattern: /server/{function_name}/{url_path}
     $.ajax({
-        url: "/server/alien_city_function/alien?city_name=" + city,
+        url: "/server/covid_tracker_function/city?city_name=" + city,
         type: "get",
         success: function (data) {
             console.log(data);

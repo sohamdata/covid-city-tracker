@@ -10,11 +10,11 @@
   "projects": [
     {
       "idx": 1,
-      "id": "3248000000002064",
-      "name": "AlienCity",
+      "id": "3248000000002868",
+      "name": "CovidTracker",
       "domain": {
-        "id": "50011929792",
-        "name": "aliencity-60018975324.development"
+        "id": "50011933856",
+        "name": "covidtracker-60018975324.development"
       },
       "env": [
         {
