@@ -1,4 +1,4 @@
-# covid-city-tracker
+# Lockdown Tracker
 
 Simple web app with Zoho Catalyst
 
